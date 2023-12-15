@@ -107,7 +107,7 @@ function cambiarColorYMostrarOpciones() {
     }).then((result) => {
         if (result.value) {
             // El usuario eligió conservar el color
-            Swal.fire('¡Color conservado!', '', 'success');
+            Swal.fire(`¡Tu color es ${nombreColor}!`, '', 'success');
             // Marcar que el color ha sido cambiado
             colorCambiado = true;
         } else {
