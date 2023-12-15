@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    margin: 0;
+    /* background-image: url("https://www.roc21.com/blog/wp-content/uploads/2012/09/fondos-para-pa%CC%81ginas-web-9.jpg"); */
+    background-image: url(./img/cumple1.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+#colorButton {
+    padding: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: #0c346d;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 0px 10px #ffeb00;
+    box-shadow: 0px 0px 3px #ffffffa3;
+}
+
+h1 {
+    font-family: 'Rubik Bubbles';
+    text-align: center;
+    font-size: 45px;
+    color: #0c346d;
+    text-shadow: 0px 0px 10px #ffeb00;
+    margin-top: 100%;
+}
